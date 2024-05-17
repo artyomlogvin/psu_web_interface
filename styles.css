@@ -1,11 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .div-main {
     display: flex;
     justify-content: center;
 }
 
+h4 {
+    margin-bottom: 10px;
+}
+
 .div-left-part {
     background-color: aqua;
     flex: 1;
+}
+
+.div-investors {
+    background-color: bisque;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    margin-bottom: 10px;
+}
+
+.div-tech {
+    background-color: bisque;
+    height: 250px;
 }
 
 .div-right-part {

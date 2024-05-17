@@ -1,0 +1,14 @@
+.div-main {
+    display: flex;
+    justify-content: center;
+}
+
+.div-left-part {
+    background-color: aqua;
+    flex: 1;
+}
+
+.div-right-part {
+    background-color: green;
+    flex: 1;
+}

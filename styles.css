@@ -33,6 +33,17 @@ h4 {
     height: 250px;
 }
 
+.div-tech {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.p-tech-chat {
+    margin-right: auto;
+    align-self: self-start;
+}
+
 .div-right-part {
     background-color: green;
     flex: 1;

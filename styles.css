@@ -6,6 +6,7 @@
 .div-main {
     display: flex;
     justify-content: center;
+    
 }
 
 h4 {
@@ -15,6 +16,7 @@ h4 {
 .div-left-part {
     background-color: aqua;
     flex: 1;
+    
 }
 
 .div-investors {
@@ -56,4 +58,18 @@ h4 {
 .div-right-part {
     background-color: green;
     flex: 1;
+}
+
+.div-inf {
+    height: 25%;
+}
+
+.div-rec {
+    height: 25%;
+    margin-bottom: 62px;
+
+}
+
+.div-inv-chat {
+    height: 25%;
 }

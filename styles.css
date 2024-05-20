@@ -19,13 +19,22 @@ h4 {
 
 .div-investors {
     background-color: bisque;
-    height: 500px;
+    height: 480px;
 
     display: flex;
     flex-direction: column;
     gap: 4px;
 
     margin-bottom: 10px;
+}
+
+#inv-pages {
+    max-width: 30px;
+}
+
+.inv-page-selector {
+    margin-top: auto;
+    align-self: flex-end;
 }
 
 .div-tech {

@@ -3,10 +3,16 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .div-main {
     display: flex;
     justify-content: center;
     background-color: orange;
+    max-width: 1000px;
     
 }
 

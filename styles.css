@@ -16,7 +16,7 @@ h4 {
 .div-left-part {
     background-color: aqua;
     flex: 1;
-    
+    padding: 10px;
 }
 
 .div-investors {
@@ -50,7 +50,7 @@ h4 {
     align-items: flex-end;
 }
 
-.p-tech-chat {
+.p-chat {
     margin-right: auto;
     align-self: self-start;
 }
@@ -58,6 +58,8 @@ h4 {
 .div-right-part {
     background-color: green;
     flex: 1;
+    padding: 10px;
+
 }
 
 .div-inf {
@@ -65,11 +67,18 @@ h4 {
 }
 
 .div-rec {
+    background-color: bisque;
     height: 25%;
     margin-bottom: 62px;
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .div-inv-chat {
-    height: 25%;
+    background-color: bisque;
+    height: 31.5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }

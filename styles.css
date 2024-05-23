@@ -66,6 +66,12 @@ h4 {
 
 }
 
+.div-right-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .div-inf {
     background-color: gray;
     padding: 10px;

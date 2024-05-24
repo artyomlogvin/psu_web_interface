@@ -4,36 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Analytics</title>
-    <link href="" />
+    <link href="index_styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="div-login">
-      <h2>Welcome!</h2>
-      <div class="first-row">
-        <label for="name">login:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          required
-          minlength="4"
-          maxlength="8"
-          size="10"
-        />
+    <div class="div-main">
+      <div class="div-login">
+        <h2>Welcome!</h2>
+        <div class="first-row">
+          <label for="name">login:</label>
+          <input
+            type="text"
+            id="login"
+            name="name"
+            required
+            minlength="4"
+            maxlength="8"
+            size="10"
+          />
+        </div>
+        <div class="second-row">
+          <label for="name">password:</label>
+          <input
+            type="text"
+            id="pass"
+            name="name"
+            required
+            minlength="4"
+            maxlength="10"
+            size="10"
+          />
+        </div>
+        <a href="main.html"><button class="btn-login">Войти</button></a>
       </div>
-      <div class="second-row">
-        <label for="name">password:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          required
-          minlength="4"
-          maxlength="8"
-          size="10"
-        />
-      </div>
-      <a href="main.html"><button>Войти</button></a>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>

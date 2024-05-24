@@ -69,7 +69,8 @@ h4 {
 .div-right-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .div-inf {
@@ -83,7 +84,7 @@ h4 {
     background-color: gray;
     padding: 10px;
     height: 25%;
-    margin-bottom: 52px;
+    margin-bottom: 22px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -96,4 +97,11 @@ h4 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+.div-username {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
 }

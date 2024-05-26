@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: gray;
+}
+
+.div-main {
+    background-color: orange;
+    max-width: 1000px;
+
+    margin-top: 200px;
+    padding: 10px;
+}
+
+.div-tech {
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.p-chat {
+    margin-bottom: auto;
+    align-self: self-start;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+.low-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

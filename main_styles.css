@@ -6,6 +6,7 @@
 body {
     display: flex;
     justify-content: center;
+    background-color: gray;
 }
 
 .div-main {
@@ -13,7 +14,8 @@ body {
     justify-content: center;
     background-color: orange;
     max-width: 1000px;
-    
+    height: 816px;
+    padding: 10px;
 }
 
 h4 {
@@ -27,14 +29,12 @@ h4 {
 
 .div-investors {
     background-color: gray;
-    height: 480px;
     padding: 10px;
+    height: 96%;
 
     display: flex;
     flex-direction: column;
     gap: 4px;
-
-    margin-bottom: 10px;
 }
 
 #inv-pages {
@@ -44,20 +44,6 @@ h4 {
 .inv-page-selector {
     margin-top: auto;
     align-self: flex-end;
-}
-
-.div-tech {
-    background-color: gray;
-    height: 250px;
-    padding: 10px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.p-chat {
-    margin-right: auto;
-    align-self: self-start;
 }
 
 .div-right-part {
@@ -70,21 +56,21 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .div-inf {
     background-color: gray;
     padding: 10px;
     height: 25%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .div-rec {
     background-color: gray;
     padding: 10px;
     height: 25%;
-    margin-bottom: 22px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -93,10 +79,15 @@ h4 {
 .div-inv-chat {
     background-color: gray;
     padding: 10px;
-    height: 31.5%;
+    height: 30.25%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+.p-chat {
+    margin-right: auto;
+    align-self: flex-start;
 }
 
 .div-username {

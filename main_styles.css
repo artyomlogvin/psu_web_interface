@@ -7,6 +7,8 @@ body {
     display: flex;
     justify-content: center;
     background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .div-main {
@@ -81,13 +83,60 @@ h4 {
     padding: 10px;
     height: 30.25%;
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
 }
 
-.p-chat {
-    margin-right: auto;
+.div-messages {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.div-right-messages {
+    margin-bottom: auto;
+    align-self: flex-end;
+}
+
+.div-left-messages {
+    margin-bottom: auto;
     align-self: flex-start;
+}
+
+.div-right-message {
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 8px;
+    width:fit-content;
+    display: flex;
+}
+
+.div-left-message {
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 8px;
+    width:fit-content;
+    display: flex;
+}
+
+.p-message-time {
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+.p-nickname {
+    color: #D0D0D0;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.low-row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .div-username {

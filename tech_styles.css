@@ -19,28 +19,64 @@ body {
     padding: 10px;
 }
 
-.div-tech {
+.div-tech-chat {
     background-color: gray;
-    height: 400px;
-    width: 400px;
     padding: 10px;
+    width: 400px;
+    height: 400px;
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+.div-messages {
+    display: flex;
     flex-direction: column;
-}
-
-.p-chat {
+    width: 100%;
     margin-bottom: auto;
-    align-self: self-start;
+    font-size: 16px;
 }
 
-h4 {
-    margin-bottom: 5px;
+.div-right-messages {
+    margin-bottom: auto;
+    align-self: flex-end;
+}
+
+.div-left-messages {
+    margin-bottom: auto;
+    align-self: flex-start;
+}
+
+.div-right-message {
+    background-color: #66CCFF;
+    padding: 5px;
+    border-radius: 8px;
+    width:fit-content;
+    display: flex;
+}
+
+.div-left-message {
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 8px;
+    width:fit-content;
+    display: flex;
+}
+
+.p-message-time {
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+.p-nickname {
+    color: #D0D0D0;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .low-row {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
